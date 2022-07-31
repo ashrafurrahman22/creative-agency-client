@@ -1,9 +1,12 @@
 import React from 'react';
+import Customer from '../../Components/Customer';
+import Navbar from '../Shared/Navbar';
 
 const Home = () => {
     return (
         <div>
-            <h2>This is home</h2>
+            <Navbar></Navbar>
+           <Customer></Customer>
         </div>
     );
 };
