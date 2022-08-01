@@ -11,7 +11,7 @@
     height: 100%;
     background: rgba(0,0,0,0.8);
     background-color: #FBD062;
-    clip-path: polygon(0 0, 100% 0, 100% 88.5%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
     background-blend-mode: darken;
     background-size: cover;
     color: #111430;
