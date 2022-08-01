@@ -1,5 +1,5 @@
 #navbar {
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,);
     background-blend-mode: darken;
     font-family: poppins;
     letter-spacing: 1px;
@@ -10,9 +10,9 @@
     width: 100%;
     height: 100%;
     background: rgba(0,0,0,0.8);
-    background-color: #FBD062;
+    background-color: #FBD062; 
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
-    background-blend-mode: darken;
+     background-blend-mode: darken;
     background-size: cover;
     color: #111430;
 }
