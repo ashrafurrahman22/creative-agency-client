@@ -1,11 +1,12 @@
 import React from 'react';
 import  Navbar from '../Shared/Navbar';
+import LoginForm from './LoginForm';
 
 const Login = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <h2>login</h2>
+            <LoginForm></LoginForm>
         </div>
     );
 };
