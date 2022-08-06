@@ -4,7 +4,7 @@ import LoginForm from './LoginForm';
 
 const Login = () => {
     return (
-        <div>
+        <div style={{backgroundColor:"#FBD062"}}>
             <Navbar></Navbar>
             <LoginForm></LoginForm>
         </div>
