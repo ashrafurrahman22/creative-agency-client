@@ -1,0 +1,32 @@
+[
+    {
+        "name" : "Web Development",
+        "title" : "We craft stunning and amazing web UI, using a well drrafted UX to fit your product.",
+        "img" : "https://i.ibb.co/SPzmtVy/service3.png"
+    },
+    {
+        "name" : "Tablet App Development",
+        "title" : "With well written codes, we build amazing apps for all platforms, mobile and Tablet apps in general.",
+        "img" : "https://i.ibb.co/W0X2N7q/service1.png"
+    },
+    {
+        "name" : "Mobile App Development",
+        "title" : "With well written codes, we build amazing apps for all platforms, mobile and web apps in general.",
+        "img" : "https://i.ibb.co/TMfMHTf/service2.png"
+    },
+    {
+        "name" : "Digital Marketing",
+        "title" : "Amazing flyers, social media posts and brand representations that would make your brand stand out.",
+        "img" : "https://i.ibb.co/DLcV6Lv/service4.png"
+    },
+    {
+        "name" : "Content Writing",
+        "title" : "Amazing flyers, social media posts and brand representations that would make your brand stand out.",
+        "img" : "https://i.ibb.co/Tq9DQsm/service5.png"
+    },
+    {
+        "name" : "Data Entry",
+        "title" : "Amazing flyers, social media posts and brand representations that would make your brand stand out.",
+        "img" : "https://i.ibb.co/vJkR5cX/Product-data-entry-services-2.png"
+    }
+]

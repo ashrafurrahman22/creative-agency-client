@@ -10,19 +10,19 @@ const Customer = () => {
         <div className="px-28 my-16">
             <div  className='grid grid-cols-5 items-center gap-10'>
                 
-            <div>
+            <div className='hover:-translate-y-1 hover:scale-110 hover:card duration-700'>
                 <img style={{width:"140px"}} src={slack} alt="" />
             </div>
-            <div>
+            <div className='hover:-translate-y-1 hover:scale-110 hover:card duration-700'>
                 <img style={{width:"140px"}} src={google} alt="" />
             </div>
-            <div>
+            <div className='hover:-translate-y-1 hover:scale-110 hover:card duration-700'>
                 <img style={{width:"120px"}} src={uber} alt="" />
             </div>
-            <div>
+            <div className='hover:-translate-y-1 hover:scale-110 hover:card duration-700'>
                 <img style={{width:"135px"}} src={netflix} alt="" />
             </div>
-            <div>
+            <div className='hover:-translate-y-1 hover:scale-110 hover:card duration-700'>
                 <img style={{width:"140px"}} src={airbnb} alt="" />
             </div>
             
