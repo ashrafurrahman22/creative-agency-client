@@ -32,14 +32,14 @@ const Carousel = () => {
 </div> 
 <div class="flex justify-center w-full pt-8 gap-5">
   <a href="#item1" class="">
-  <div style={{backgroundColor:"#7AB259"}} className='h-5 w-5 rounded-full hover:-translate-y-1 hover:scale-110 hover:card duration-700'></div>
+  <div style={{backgroundColor:"#7AB259"}} className='h-4 w-4 rounded-full hover:-translate-y-1 hover:scale-110 hover:card duration-700'></div>
       </a> 
   <a href="#item2">
-  <div style={{backgroundColor:"#7AB259"}} className='h-5 w-5 rounded-full hover:-translate-y-1 hover:scale-110 hover:card duration-700'></div>
+  <div style={{backgroundColor:"#7AB259"}} className='h-4 w-4 rounded-full hover:-translate-y-1 hover:scale-110 hover:card duration-700'></div>
       </a> 
-  <a href="#item3"> <div style={{backgroundColor:"#7AB259"}} className='h-5 w-5 rounded-full hover:-translate-y-1 hover:scale-110 hover:card duration-700'></div></a> 
-  <a href="#item4"> <div style={{backgroundColor:"#7AB259"}} className='h-5 w-5 rounded-full hover:-translate-y-1 hover:scale-110 hover:card duration-700'></div></a>
-  <a href="#item5"> <div style={{backgroundColor:"#7AB259"}} className='h-5 w-5 rounded-full hover:-translate-y-1  hover:scale-110 hover:card duration-700'></div></a>
+  <a href="#item3"> <div style={{backgroundColor:"#7AB259"}} className='h-4 w-4 rounded-full hover:-translate-y-1 hover:scale-110 hover:card duration-700'></div></a> 
+  <a href="#item4"> <div style={{backgroundColor:"#7AB259"}} className='h-4 w-4 rounded-full hover:-translate-y-1 hover:scale-110 hover:card duration-700'></div></a>
+  <a href="#item5"> <div style={{backgroundColor:"#7AB259"}} className='h-4 w-4 rounded-full hover:-translate-y-1  hover:scale-110 hover:card duration-700'></div></a>
 </div>
 
             </div>
