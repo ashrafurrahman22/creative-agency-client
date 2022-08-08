@@ -1,9 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import creativeLogo from "../../assets/images/logos/logo.png";
+import auth from "../../firebase.init";
 // import "../../Styles/Navbar.css";
+import { useAuthState } from 'react-firebase-hooks/auth';
+import { signOut } from 'firebase/auth';
 
 const Navbar = () => {
+
+  const [user] = useAuthState(auth);
+
+  const logout = () => {
+      signOut(auth);
+      // localStorage.removeItem('accessToken');
+  };
+
+
   return (
     <div className="pt-10 pb-8 px-12">
       {/* updating */}
@@ -68,13 +80,16 @@ const Navbar = () => {
             <li>
                 <Link to="/dashboard">Dashboard</Link>
               </li>
-          </ul>
-          <Link to='/login'
+              <li>
+              {user ? <button id="btn" className="btn font-medium text-white px-6 uppercase" onClick={logout} >log Out</button> :
+                <Link to='/login'
             id="btn"
             className="btn font-medium text-white px-6 uppercase"
           >
             Login
-          </Link>
+          </Link> }</li>
+          </ul>
+          
         </div>
       </div>
 

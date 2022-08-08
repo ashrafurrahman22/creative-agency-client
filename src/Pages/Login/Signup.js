@@ -75,9 +75,9 @@ const Signup = () => {
                 fontSize: "24px",
                 letterSpacing: "1px",
               }}
-              className="text-center font-semibold py-2"
+              className="text-center font-semibold pb-4"
             >
-              SignUp with
+              SignUp
             </h2>
 
 

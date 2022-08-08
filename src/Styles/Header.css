@@ -1,0 +1,24 @@
+#typeWritter {
+
+    font-family: poppins;
+    letter-spacing: 2px;
+    line-height: 70px;
+}
+
+#headImg {
+    width : 624.6px;
+    height : 422.8px;
+}
+
+
+@media only screen and (max-width:576px) {
+    #typeWritter {
+        letter-spacing: 2px;
+        line-height: 30px;
+    }
+    #headImg {
+        
+        width : 324.6px;
+        height : 222.8px;
+    }
+}

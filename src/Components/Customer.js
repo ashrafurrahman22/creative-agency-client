@@ -8,7 +8,7 @@ import google from '../assets/images/logos/google.png';
 const Customer = () => {
     return (
         <div className="px-28 my-16">
-            <div  className='grid grid-cols-5 items-center gap-10'>
+            <div  className='grid md:grid-cols-2 lg:grid-cols-5 grid-cols-1 items-center gap-10'>
                 
             <div className='hover:-translate-y-1 hover:scale-110 hover:card duration-700'>
                 <img style={{width:"140px"}} src={slack} alt="" />

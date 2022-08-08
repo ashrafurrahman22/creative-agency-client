@@ -1,15 +1,15 @@
 import React from 'react';
 import illustration from '../assets/images/logos/Frame.png'
+import '../Styles/Header.css'
 
 const Header = () => {
     return (
         <div>
-            <div className="lg:grid grid-cols-2 mx-auto mt-0 p-4 text-left">
+            <div className="grid md:grid-cols-2 grid-cols-1 lg:grid-cols-2 mx-auto mt-0 p-4 text-left">
 
-<div className="max-w-7xl mt-14 mx-auto px-12">
-  <h1
-    style={{ fontFamily: "poppins", letterSpacing:"2px" }}
-    className=" font-extrabold text-6xl lg:text-0 my-4"
+<div className="max-w-7xl lg:mt-8 mx-auto px-12">
+  <h1 id='typeWritter'
+    className=" font-extrabold lg:text-6xl text-xl lg:text-0 my-4"
   >
     Let’s Grow Your <br /> Brand To The <br /> Next Level
   </h1>
@@ -30,7 +30,7 @@ const Header = () => {
 </div>
 
 <div>
-<img style={{width:"624.6px", height:"422.8px"}} className="p-8" src={illustration} alt="" />
+<img id='headImg' className="lg:p-8 p-4 mx-auto" src={illustration} alt="" />
 </div>
 </div>
         </div>

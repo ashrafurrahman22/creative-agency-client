@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div id='footer' style={{fontFamily:"poppins"}} className="p-20 mt-20">
 
-            <div className="grid grid-cols-2 gap-8">
+            <div className="lg:grid grid-cols-2 gap-8">
             <div>
             <h2 className='text-4xl my-5 font-bold'>Let us handle your <br /> project, professionally.</h2>
             <p className='text-md'>With well written codes, we build amazing apps for all platforms, mobile and web apps in general.</p>

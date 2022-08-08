@@ -24,5 +24,6 @@
         background-color: #FBD062;
         background-blend-mode: darken;
         background-size: cover;
+        clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
      }
 }
