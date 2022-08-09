@@ -7,6 +7,7 @@ import Services from '../../Components/Services';
 import Footer from '../Shared/Footer';
 import Navbar from '../Shared/Navbar';
 import '../../Styles/Navbar.css'
+import OurClients from '../../Components/OurClients';
 
 const Home = () => {
     return (
@@ -20,6 +21,7 @@ const Home = () => {
            <Customer></Customer>
            <Services></Services>
            <Carousel></Carousel>
+           <OurClients></OurClients>
            <Feedback></Feedback>
            <Footer></Footer>
         </div>
