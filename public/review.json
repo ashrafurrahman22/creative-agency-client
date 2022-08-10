@@ -1,0 +1,9 @@
+[
+    {
+       "_id" :"1",
+       "name" : "Nash Patrik",
+       "designation" : "CEO, Manpol",
+       "review" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, tenetur molestiae expedita quae commodi praesentium doloribus obcaecati consequuntur dolores cumque.",
+        "img" : "http://localhost:3000/static/media/customer-1.c0d0bcce7e66ed2e4fb9.png"
+    }
+]

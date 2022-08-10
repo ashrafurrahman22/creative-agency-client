@@ -21,7 +21,7 @@ const Feedback = () => {
                         <h3 className='lg:text-xl'>CEO, Manpol</h3>
                     </div>
                     </div>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, tenetur molestiae expedita quae commodi praesentium doloribus obcaecati consequuntur dolores cumque.</p>
+                        <p className='text-center'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, tenetur molestiae expedita quae commodi praesentium doloribus obcaecati consequuntur dolores cumque.</p>
                 </div>
                 <div className='card card-body bg-base-100 shadow-2xl'>
                     <div className="flex gap-8 my-3 items-center">   
@@ -33,7 +33,7 @@ const Feedback = () => {
                         <h3 className='lg:text-xl'>CEO, Manpol</h3>
                     </div>
                     </div>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, tenetur molestiae expedita quae commodi praesentium doloribus obcaecati consequuntur dolores cumque.</p>
+                        <p className='text-center'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, tenetur molestiae expedita quae commodi praesentium doloribus obcaecati consequuntur dolores cumque.</p>
                 </div>
                 <div className='card card-body bg-base-100 shadow-2xl'>
                     <div className="flex gap-8 my-3 items-center">   
@@ -45,7 +45,7 @@ const Feedback = () => {
                         <h3 className='lg:text-xl'>CEO, Manpol</h3>
                     </div>
                     </div>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, tenetur molestiae expedita quae commodi praesentium doloribus obcaecati consequuntur dolores cumque.</p>
+                        <p className='text-center'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, tenetur molestiae expedita quae commodi praesentium doloribus obcaecati consequuntur dolores cumque.</p>
                 </div>
             </div>
 

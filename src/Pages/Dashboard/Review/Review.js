@@ -19,7 +19,7 @@ const Review = () => {
   <input type="text" placeholder="Your Company Designation"  class="input input-bordered w-full max-w-xl mb-2" {...register("name")} required />
 
   <textarea type="text" placeholder="Write Your Review Here" class="input input-bordered w-full h-36 max-w-xl mb-2" {...register("review")} required />
-        <input type="submit" value='Add Review' class="input input-bordered btn text-black w-full max-w-xl cursor-pointer" />
+        <input type="submit" value='Add Review' class="input hover:btn-primary font-medium input-bordered btn text-black w-full max-w-xl cursor-pointer" />
         </form>
             </div>
         </div>
