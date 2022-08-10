@@ -12,7 +12,6 @@ const Review = () => {
     return (
         <div className='text-black'>
             <h2  className='uppercase text-3xl text-center font-semibold my-2'>add Your review</h2>
-            <hr/>
             <div className='px-3 pt-6'>
             <form className='flex flex-col' onSubmit={handleSubmit(hanldeReview)}>
 
