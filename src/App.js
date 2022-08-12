@@ -12,6 +12,9 @@ import OurPortfolio from './Pages/OurPortfolio/OurPortfolio';
 import OurTeam from './Pages/OurTeam/OurTeam';
 import Navbar from './Pages/Shared/Navbar';
 import PageNotFound from './Pages/Shared/PageNotFound';
+import { ToastContainer } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
+
 
 function App() {
   return (
@@ -42,7 +45,7 @@ function App() {
             <Route path='*' element={<PageNotFound></PageNotFound>}></Route>
         </Routes>
 
-
+        <ToastContainer />
     </div>
   );
 }
