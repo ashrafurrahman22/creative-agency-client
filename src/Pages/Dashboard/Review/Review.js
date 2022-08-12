@@ -8,7 +8,7 @@ const Review = () => {
 
     const hanldeReview = event =>{
           console.log(event);
-          fetch('http://localhost:5000/review', {
+          fetch('https://sheltered-headland-87932.herokuapp.com/review', {
             method : "POST", 
             headers : {
               'content-type' : 'application/json'

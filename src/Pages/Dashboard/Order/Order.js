@@ -8,7 +8,7 @@ const Order = () => {
 
     const hanldeReview = event =>{
           console.log(event);
-          fetch('http://localhost:5000/order', {
+          fetch('https://sheltered-headland-87932.herokuapp.com/order', {
             method : "POST", 
             headers : {
               'content-type' : 'application/json'
