@@ -13,8 +13,8 @@ import OurTeam from './Pages/OurTeam/OurTeam';
 import Navbar from './Pages/Shared/Navbar';
 import PageNotFound from './Pages/Shared/PageNotFound';
 import { ToastContainer } from 'react-toastify';
-  import 'react-toastify/dist/ReactToastify.css';
-
+import 'react-toastify/dist/ReactToastify.css';
+import './App.css'
 
 function App() {
   return (

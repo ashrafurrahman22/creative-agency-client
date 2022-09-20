@@ -25,8 +25,8 @@ const Order = () => {
 
     return (
         <div>
-            <h2 className='uppercase text-3xl text-center font-semibold my-2'>Your Orders</h2>
-            <hr style={{height:"2px"}} className='bg-black'/>
+            <h2 style={{fontFamily:"raleway"}} className='text-3xl pl-5 font-medium '>Your Orders</h2>
+            <hr />
             <div className='px-3 pt-6'>
             <form className='flex flex-col' onSubmit={handleSubmit(hanldeReview)}>
 

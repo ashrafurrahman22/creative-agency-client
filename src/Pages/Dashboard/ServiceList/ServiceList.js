@@ -10,8 +10,6 @@ const ServiceList = () => {
 
     return (
         <div>
-            <h2 className='uppercase text-3xl text-center font-semibold my-2'>Service List</h2>
-            <hr style={{height:"2px"}} className="bg-black" />
             <div className='grid grid-cols-2 gap-10 py-8'>
                 {
                     services.map(service => <SingleService
