@@ -16,6 +16,10 @@ const ServiceList = () => {
                     service={service}
                     ></SingleService> )
                 }
+
+                
+
+
             </div>
         </div>
     );

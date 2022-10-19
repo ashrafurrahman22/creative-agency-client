@@ -1,0 +1,27 @@
+#login-mainDiv {
+    width: 570px;
+    height: 457px;
+}
+
+#secndDiv {
+    width: 456px;
+    height: 148px;
+}
+
+#googleBtn {
+    width: 400px;
+    height: 51px;
+}
+
+@media only screen and (max-width:576px) {
+    #login-mainDiv {
+        padding: 40px;
+        width: 320px;
+        height: 380px;
+    }
+
+    #googleBtn {
+        width: 250px;
+        height: 51px;
+    }
+}

@@ -27,7 +27,6 @@ function App() {
 
           {/* dashboard */}
           <Route path='/dashboard' element={ <Dashboard></Dashboard> }>
-
             <Route index element={ <Order></Order> }></Route>
           <Route path="order" element={  <Order></Order>  }></Route>
           <Route path="servicelist" element={ <ServiceList></ServiceList> }></Route>

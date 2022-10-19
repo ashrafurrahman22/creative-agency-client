@@ -41,7 +41,7 @@ const Navbar = () => {
             </label>
             <ul
               tabindex="0"
-              class="menu menu-compact dropdown-content mt-3 p-2  shadow rounded-box w-52"
+              class="menu menu-compact dropdown-content mt-3 p-2 bg-base-100 shadow rounded-box w-52"
             >
               <li>
                 <Link to="/">Home</Link>
@@ -53,11 +53,11 @@ const Navbar = () => {
                 <Link to="/team">Our Team</Link>
               </li>
               <li>
-                <Link to="/contact">Contact</Link>
+                <Link to="/login">Login</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/dashboard">Dashboard</Link>
-              </li>
+              </li> */}
             </ul>
           </div>
           <Link to="/" class="btn btn-ghost normal-case text-xl">
@@ -71,7 +71,7 @@ const Navbar = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/portfolio">Our Portfolio</Link>
+              <Link to="/portfolio">Portfolio</Link>
             </li>
             
             <li>

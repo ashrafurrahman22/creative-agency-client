@@ -5,6 +5,7 @@ import auth from '../../firebase.init';
 import google from '../../assets/Social icon/google.png';
 import Loading from '../Shared/Loading';
 import { useForm } from 'react-hook-form';
+import '../../Styles/Login.css'
 
 const LoginForm = () => {
 
@@ -64,12 +65,11 @@ const LoginForm = () => {
 
         <div className="min-h-screen">
       <div className="flex justify-center items-center">
-        <div
-          style={{ width: "570px", height: "457px" }}
+        <div id='login-mainDiv'
+          
           className="flex rounded-xl bg-base-200 flex-col justify-center items-center p-20"
         >
-          <div
-            style={{ width: "456px", height: "148px" }}
+          <div id='secndDiv'
             className="flex flex-col justify-center items-center"
           >
             <h2
@@ -90,7 +90,7 @@ const LoginForm = () => {
 
                 <div  className="form-control w-96 max-w-xs">
                   
-                  <input 
+                  <input  
                     type="email"
                     placeholder="Your Email"
                     className="input input-bordered rounded-full w-full max-w-xs"
@@ -151,7 +151,7 @@ const LoginForm = () => {
 
                 {signInError}
                 <input
-                  className="btn w-full rounded-full max-w-xs text-white"
+                  className="btn lg:w-full w-56 rounded-full lg:max-w-xs text-white"
                   type="submit"
                   value="Login"
                 />
@@ -161,8 +161,8 @@ const LoginForm = () => {
             <div className="divider">OR</div>
             {/* google div */}
             <div>
-              <button
-                style={{ width: "400px", height: "51px" }}
+              <button id='googleBtn'
+                
                 onClick={() => signInWithGoogle()}
                 className="btn rounded-full  btn-outline"
               >
