@@ -8,7 +8,7 @@ const Review = () => {
 
     const hanldeReview = event =>{
           console.log(event);
-          fetch('https://safe-lake-95138.herokuapp.com/review', {
+          fetch('https://creative-agency-server-production.up.railway.app/review', {
             method : "POST", 
             headers : {
               'content-type' : 'application/json'

@@ -6,7 +6,7 @@ const useOrder = () =>{
     const [orders, setOrders] = useState([]);
     
     useEffect(()=>{
-      fetch("https://safe-lake-95138.herokuapp.com/order")
+      fetch("https://creative-agency-server-production.up.railway.app/order")
       .then(res => res.json())
       .then(data => setOrders(data))
     },[])
