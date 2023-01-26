@@ -8,7 +8,7 @@ const Review = () => {
 
     const hanldeReview = event =>{
           console.log(event);
-          fetch('https://creative-agency-server-production.up.railway.app/review', {
+          fetch('https://cute-tan-scorpion-wrap.cyclic.app/review', {
             method : "POST", 
             headers : {
               'content-type' : 'application/json'

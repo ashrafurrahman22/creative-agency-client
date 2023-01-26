@@ -5,11 +5,11 @@ import '../Styles/Header.css'
 const Header = () => {
     return (
         <div>
-            <div className="grid md:grid-cols-2 grid-cols-1 lg:grid-cols-2 mx-auto mt-0 p-4 text-left">
+            <div className="grid md:grid-cols-2 grid-cols-1 lg:grid-cols-2 mx-auto mt-0 px-4 text-left">
 
-<div className="max-w-7xl lg:mt-8 mx-auto px-12">
+<div className="max-w-7xl lg:mt-6 mx-auto px-12">
   <h1 id='typeWritter'
-    className=" font-extrabold lg:text-6xl text-xl lg:text-0 my-4"
+    className=" font-extrabold lg:text-5xl text-xl lg:text-0 my-4"
   >
     Let’s Grow Your <br /> Brand To The <br /> Next Level
   </h1>
